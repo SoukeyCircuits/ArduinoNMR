@@ -1,10 +1,19 @@
-June 2026 Update and Explainer:
+August 2026 Update and Explainer:
+
+IMPORTANT DISCLAIMER: The repository here is only the spectrometer for an NMR. You will need to purchase a sufficiently homogeneous magnet and a power amplifier to acquire any kind of measurement. A power amplifier can be purchased from aliexpress for under $100 but your quality and safety will vary significantly. If you are looking for a magnet, there are a few open source options that you can build yourself or commercially available ones.
+
+The magnet used for demonstration can be found here: 
+https://www.spincore.com/products/Magnets/
+I will do a build of this one: 
+https://www.hardware-x.com/article/S2468-0672(25)00029-X/fulltext 
+I'm unsure if this is of high quality but would be an interesting build:
+https://science.slc.edu/mfrey/project/3dprintnmrmandhalas_update2/
 
 To do list: 
 	
   -Upload Accessory PCB files
 	
-  -Add alternative attenuator and LNA.
+  -Add alternative attenuator and LNA (10 MHz minimum frequency but lower price).
 	
   -Upload control code
 	
@@ -15,10 +24,14 @@ To do list:
   -Add non JLC BOM (Mouser, Aliexpress, etc)
 	
   -Add raspberry pi multiple instrument control software.
+
+  -Fix phase error discovered at OpenSauce 2026.
+  
+  -Implement digital filtering techniques.
   
 The main sections of the Arduino NMR are the RF synthesis, RF input, and the Tayloe detector. 
 
-RF synthesis begins with the SI5351A-B-GM chip connected to an ABM8G-25.000MHZ-4Y-T3, a  25 MHz crystal oscillator. The 20QFN package for the SI5351 was specifically chosen over the 16QFN as it was having issues with the Etherkit SI5351 library and not indexing the clock outputs correctly. The SI5351A-B-GM is still unable to use CLK6 and CLK7 as they are handled differently from CLK0-CLK5. Although it would be possible to control all 8 outputs, the function is sufficient for the design as is. The primary output clocks CLK0-CLK3 are connected to an ADG904BRUZ in an SP4T configuration. The switch allows for indexing either 0°, 90°, 180°, and 270° phase for a single frequency or 0° and a second phase at two separate frequencies. 
+RF synthesis begins with the SI5351A-B-GM chip connected to an ABM8G-25.000MHZ-4Y-T3, a  25 MHz crystal oscillator. The 20QFN package for the SI5351 was specifically chosen over the 16QFN as it was having issues with the Etherkit SI5351 library and not indexing the clock outputs correctly. The SI5351A-B-GM is still unable to use CLK6 and CLK7 as they are handled differently from CLK0-CLK5. Although it would be possible to control all 8 outputs, the function is sufficient for the design as is. The primary output clocks CLK0-CLK3 are connected to an ADG904BRUZ in an SP4T configuration. The switch allows for indexing either 0°, 90°, 180°, and 270° phase for a single frequency or 0° and a second phase at two separate frequencies. The lowest frequency for a 0°-90° control is 4.76 MHz due to the lower PLL limit of 600 MHz and the upper divider limit of int-127. For 0°-90°-180°, the lower limit is twice that at 9.52 MHz. Finally, for full 0°-90°-180°-270° control, the lower limit is 14.17 MHz.
 
 The output is then fed into a PE4251MLI-Z SPDT switch. Since both single and dual frequency setups have an available channel containing the 0° at the Larmor frequency, when not transmitting, the channel can be used for Homodyne demodulation. Alternatively, one of the clocks can be set to a secondary offset frequency for Heterodyne demodulation. 
 
