@@ -1,0 +1,22 @@
+# KiCad backups and autosaves
+*.kicad_sch-bak
+*.kicad_pcb-bak
+*.bak
+_autosave-*
+~*.lck
+*-backups/
+
+# KiCad transient/cache files
+*.TMP
+*~
+fp-info-cache*
+
+# Dated backup archives (regenerable from source)
+production/backups/
+
+# Editor/tooling local history
+.history/
+
+# OS cruft
+.DS_Store
+Thumbs.db

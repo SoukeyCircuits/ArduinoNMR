@@ -1,0 +1,109 @@
+(footprint "4.8mm_lug"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(property "Reference" "J23"
+		(at 0.1 -0.1 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "66084f1a-9a3f-4ac5-9451-7ef26356588b")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Value" "Conn_01x01_Pin"
+		(at 0 4.7 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "e01df3de-4f37-4b5d-9cf1-3f5632c03bed")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "e3a4c39f-46ef-4752-9867-4945afa5fcbc")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" "Generic connector, single row, 01x01, script generated"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "5b2c9f6c-c31d-437d-b83c-c4a6cad4cee6")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_rect
+		(start -5 -2)
+		(end 5 2)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "6d59da1a-a6b9-48f3-884f-88928c080b7c")
+	)
+	(fp_text user "${REFERENCE}"
+		(at -0.05 3.05 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "b38e0089-4f26-4121-bb81-a877fbe02d0f")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" thru_hole oval
+		(at -2.5 0)
+		(size 2.25 1.75)
+		(drill oval 1.75 1.25)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "1784bf07-07be-44a5-a1dd-b9a636f73e12")
+	)
+	(pad "1" thru_hole oval
+		(at 2.5 0)
+		(size 2.25 1.75)
+		(drill oval 1.75 1.25)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "d649fb2d-c8b2-4176-aaf8-8c907fa4db90")
+	)
+	(embedded_fonts no)
+	(model "C:/Users/ajsou/Nextcloud/NMR Work/CAD/xt30_male.step"
+		(offset
+			(xyz -5 2 20.5)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 90)
+		)
+	)
+)
