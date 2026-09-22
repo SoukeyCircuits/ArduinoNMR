@@ -1,0 +1,153 @@
+(footprint "RF Shield_1"
+	(version 20260206)
+	(generator "pcbnew")
+	(generator_version "10.0")
+	(layer "F.Cu")
+	(descr "Laird Technologies BMI-S-209-F Shielding Cabinet Two Piece SMD 29.36x18.50mm, http://cdn.lairdtech.com/home/brandworld/files/Board%20Level%20Shields%20Catalog%20Download.pdf")
+	(tags "Shielding Cabinet")
+	(property "Reference" "REF**"
+		(at -17.25 12.9 180)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "6d222ddd-bdc8-4c04-91ef-9a0c42816d4f")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "RFShield_OnePiece"
+		(at 0 12.6 180)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "d30a331e-ac39-4dd8-a14e-908ec33b7b60")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 180)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "2cc277db-9409-43ec-b546-0df62e97843d")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" "One-piece EMI RF shielding cabinet"
+		(at 0 0 180)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "3f7924b8-8ade-43d2-a15e-d04162f69235")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(sheetname "/")
+	(sheetfile "Arduino_NMR_5.4.kicad_sch")
+	(attr smd exclude_from_pos_files exclude_from_bom)
+	(duplicate_pad_numbers_are_jumpers no)
+	(fp_rect
+		(start -18.63 -9.9)
+		(end 15.18 11.7)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "661d40c6-742f-4540-87bb-bb831f00c2fa")
+	)
+	(fp_rect
+		(start -17.43 -8.65)
+		(end 13.98 10.55)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "1d8b380e-63ba-4243-a05b-cead5e051e0d")
+	)
+	(fp_rect
+		(start -14.68 -9.25)
+		(end 14.68 9.25)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "87f460ea-7f00-4d3e-a1cf-ed6fa1e44b4e")
+	)
+	(pad "1" smd rect
+		(at -18.03 -9.15)
+		(size 1 1)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "e8a684b2-b71f-4a72-91ed-420ac228b085")
+	)
+	(pad "1" smd rect
+		(at -18.03 1)
+		(size 1 19.3)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "a54758f5-a02c-4455-85e5-6f0ff43ce7a0")
+	)
+	(pad "1" smd rect
+		(at -18.03 11.1)
+		(size 1 0.9)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "aa686a6e-27d3-4044-b7e9-119209a89fd7")
+	)
+	(pad "1" smd rect
+		(at -15.69 11.1)
+		(size 3.68 0.9)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "75d478b4-f200-44cd-bda7-0b477c48b735")
+	)
+	(pad "1" smd rect
+		(at -2.705 -9.264687)
+		(size 26.83 1.020576)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "90ba3325-cccb-4708-b04f-241c72447f2a")
+	)
+	(pad "1" smd rect
+		(at 0.559839 11.110573)
+		(size 24.739678 0.921146)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "216217f0-6f81-4430-bc36-e3c6da36db9a")
+	)
+	(pad "1" smd rect
+		(at 13.235 -9.2625)
+		(size 1.75 1.025)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "3ec4ecc9-da9c-447b-a77b-3e2f3ea8301c")
+	)
+	(pad "1" smd rect
+		(at 14.565 0.9375)
+		(size 0.97 21.425)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "e960669e-6621-4a6b-9640-38becaaf7094")
+	)
+	(embedded_fonts no)
+	(model "${KICAD9_3DMODEL_DIR}/RF_Shielding.3dshapes/Laird_Technologies_BMI-S-209-F_29.36x18.50mm.step"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)

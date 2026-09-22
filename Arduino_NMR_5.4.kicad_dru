@@ -1,0 +1,4 @@
+(version 1)
+(rule "PHA-13HLN reference-layout courtyard overlap"
+  (constraint courtyard_clearance (min -1mm))
+  (condition "A.Reference == 'IC13' || A.Reference == 'IC14'"))

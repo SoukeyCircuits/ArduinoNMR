@@ -1,0 +1,11 @@
+﻿Item,Description,Qty,Supplier,Link,Notes
+Aluminium enclosure,,1,Amazon,https://www.amazon.com/dp/B012SYN4OO,
+M3 standoffs,Assorted M3 standoff kit,1,AliExpress,https://www.aliexpress.us/item/3256808109877301.html,
+Arduino Giga R1 WiFi,ABX00063 - board only,1,Amazon,https://www.amazon.com/dp/B0BTTRZ9TB,Alternative with display: https://www.amazon.com/dp/B0G1L5C7MG
+USB-C power supply,,1,Amazon,https://www.amazon.com/dp/B0CYZHY7BX,
+USB-C cable,,1,Amazon,https://www.amazon.com/dp/B0CJY9PRNY,Alternative: https://www.amazon.com/dp/B0BLYXSTSQ
+SMA connectors,"SMA-KWE 17 mm, 50 pcs",1,AliExpress,https://www.aliexpress.us/item/3256808128195000.html,Mates with the board SMA footprints
+2.54 mm header pins,"40P strip, cut to size",1,AliExpress,https://www.aliexpress.us/item/3256806907643797.html,
+Heat sink - LNA,,0,,,TBD
+Enclosure fan,,0,,,TBD
+0 ohm jumper resistors 0805,Only if filtering is done off-board - see filter inductor note,0,,,

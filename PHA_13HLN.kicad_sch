@@ -377,7 +377,7 @@
 					(justify left top)
 				)
 			)
-			(property "Footprint" "LQH32CH100K53L"
+			(property "Footprint" ""
 				(at 16.51 -94.92 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -590,7 +590,7 @@
 					(justify left top)
 				)
 			)
-			(property "Footprint" "LQW18AS10NG0CD"
+			(property "Footprint" "Arduino_NMR:LQW18AS10NG0CD"
 				(at 16.51 -96.19 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -801,7 +801,7 @@
 					(justify left top)
 				)
 			)
-			(property "Footprint" "PHA13HLN"
+			(property "Footprint" "Arduino_NMR:PHA13HLN"
 				(at 41.91 -94.92 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -1978,7 +1978,7 @@
 			(uuid "72511181-2fc8-4b4d-b7d6-9fba005aae48")
 		)
 		(instances
-			(project "Arduino_NMR_5.2"
+			(project "Arduino_NMR_5.4"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/8ed097b2-3a32-47c1-aabf-c914404a5d79"
 					(reference "#PWR091")
 					(unit 1)
@@ -2019,7 +2019,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
+		(property "Footprint" "Arduino_NMR:C_0805_2012Metric"
 			(at 149.86 32.0548 0)
 			(hide yes)
 			(show_name no)
@@ -2052,6 +2052,17 @@
 				)
 			)
 		)
+		(property "LCSC Part #" "GRM21BR61H106KE43L"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "e8665596-edbe-4905-bcaa-6843a0029184")
 		)
@@ -2059,7 +2070,7 @@
 			(uuid "61d45c93-4b89-4a66-95df-f6654bf4857d")
 		)
 		(instances
-			(project "Arduino_NMR_5.2"
+			(project "Arduino_NMR_5.4"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/8ed097b2-3a32-47c1-aabf-c914404a5d79"
 					(reference "C41")
 					(unit 1)
@@ -2137,7 +2148,7 @@
 			(uuid "f3b9759c-6988-4def-89b6-6f16c086c5e2")
 		)
 		(instances
-			(project "Arduino_NMR_5.2"
+			(project "Arduino_NMR_5.4"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/8ed097b2-3a32-47c1-aabf-c914404a5d79"
 					(reference "#PWR093")
 					(unit 1)
@@ -2178,7 +2189,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder"
+		(property "Footprint" "Arduino_NMR:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder"
 			(at 120.904 62.484 90)
 			(hide yes)
 			(show_name no)
@@ -2211,6 +2222,17 @@
 				)
 			)
 		)
+		(property "LCSC Part #" "0402WGF1501TCE"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "0e8f929d-3625-457e-a7e6-c8733927a67e")
 		)
@@ -2218,7 +2240,7 @@
 			(uuid "1522ff27-0e01-4724-825a-2b5918346572")
 		)
 		(instances
-			(project "Arduino_NMR_5.2"
+			(project "Arduino_NMR_5.4"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/8ed097b2-3a32-47c1-aabf-c914404a5d79"
 					(reference "R16")
 					(unit 1)
@@ -2259,7 +2281,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+		(property "Footprint" "Arduino_NMR:C_0402_1005Metric"
 			(at 203.2 25.7048 0)
 			(hide yes)
 			(show_name no)
@@ -2292,6 +2314,17 @@
 				)
 			)
 		)
+		(property "LCSC Part #" "0402B102K500NT"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "ccb3ea17-1e2a-4bd1-8d52-d3cf4deb5e71")
 		)
@@ -2299,7 +2332,7 @@
 			(uuid "a2027ef9-f925-495d-b029-735b0e8c347e")
 		)
 		(instances
-			(project "Arduino_NMR_5.2"
+			(project "Arduino_NMR_5.4"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/8ed097b2-3a32-47c1-aabf-c914404a5d79"
 					(reference "C64")
 					(unit 1)
@@ -2340,7 +2373,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
+		(property "Footprint" "Arduino_NMR:C_0805_2012Metric"
 			(at 205.74 33.3248 0)
 			(hide yes)
 			(show_name no)
@@ -2373,6 +2406,17 @@
 				)
 			)
 		)
+		(property "LCSC Part #" "GRM21BR61H106KE43L"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "1bac1af7-2562-4d39-ac29-6879424e1f95")
 		)
@@ -2380,7 +2424,7 @@
 			(uuid "c0279cc1-300a-407a-8d5b-8b6052ad746b")
 		)
 		(instances
-			(project "Arduino_NMR_5.2"
+			(project "Arduino_NMR_5.4"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/8ed097b2-3a32-47c1-aabf-c914404a5d79"
 					(reference "C65")
 					(unit 1)
@@ -2458,7 +2502,7 @@
 			(uuid "09c31bc6-b489-41bd-bc83-fad787e4c89f")
 		)
 		(instances
-			(project "Arduino_NMR_5.2"
+			(project "Arduino_NMR_5.4"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/8ed097b2-3a32-47c1-aabf-c914404a5d79"
 					(reference "#PWR040")
 					(unit 1)
@@ -2499,7 +2543,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+		(property "Footprint" "Arduino_NMR:C_0603_1608Metric"
 			(at 151.13 73.9648 0)
 			(hide yes)
 			(show_name no)
@@ -2539,7 +2583,7 @@
 			(uuid "e990ffce-ecf4-492f-9834-7e1d7e60099a")
 		)
 		(instances
-			(project "Arduino_NMR_5.2"
+			(project "Arduino_NMR_5.4"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/8ed097b2-3a32-47c1-aabf-c914404a5d79"
 					(reference "C45")
 					(unit 1)
@@ -2580,7 +2624,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+		(property "Footprint" "Arduino_NMR:C_0603_1608Metric"
 			(at 80.01 73.9648 0)
 			(hide yes)
 			(show_name no)
@@ -2620,7 +2664,7 @@
 			(uuid "c5feecd4-b854-4437-a49e-295b65e5d5b8")
 		)
 		(instances
-			(project "Arduino_NMR_5.2"
+			(project "Arduino_NMR_5.4"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/8ed097b2-3a32-47c1-aabf-c914404a5d79"
 					(reference "C30")
 					(unit 1)
@@ -2661,7 +2705,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+		(property "Footprint" "Arduino_NMR:C_0402_1005Metric"
 			(at 116.84 62.5348 0)
 			(hide yes)
 			(show_name no)
@@ -2694,6 +2738,17 @@
 				)
 			)
 		)
+		(property "LCSC Part #" "CL05B104KO5NNNC"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "23b99589-8ebb-4dda-a307-b206ad0e148c")
 		)
@@ -2701,7 +2756,7 @@
 			(uuid "868d4d25-766e-45a0-b0ce-af35cc955fd3")
 		)
 		(instances
-			(project "Arduino_NMR_5.2"
+			(project "Arduino_NMR_5.4"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/8ed097b2-3a32-47c1-aabf-c914404a5d79"
 					(reference "C31")
 					(unit 1)
@@ -2779,7 +2834,7 @@
 			(uuid "1d1b5d45-a643-43b7-a1a2-6e0e2589b2e9")
 		)
 		(instances
-			(project "Arduino_NMR_5.2"
+			(project "Arduino_NMR_5.4"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/8ed097b2-3a32-47c1-aabf-c914404a5d79"
 					(reference "#PWR090")
 					(unit 1)
@@ -2818,7 +2873,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Inductor_SMD:L_0603_1608Metric"
+		(property "Footprint" "Arduino_NMR:L_0603_1608Metric"
 			(at 45.72 -21.26 0)
 			(hide yes)
 			(show_name no)
@@ -2920,7 +2975,7 @@
 			(uuid "37306029-27a8-453b-8188-ac624f1ee44a")
 		)
 		(instances
-			(project "Arduino_NMR_5.2"
+			(project "Arduino_NMR_5.4"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/8ed097b2-3a32-47c1-aabf-c914404a5d79"
 					(reference "L1")
 					(unit 1)
@@ -2960,7 +3015,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Inductor_SMD:L_0603_1608Metric"
+		(property "Footprint" "Arduino_NMR:L_0603_1608Metric"
 			(at 152.4 -31.42 0)
 			(hide yes)
 			(show_name no)
@@ -3062,7 +3117,7 @@
 			(uuid "7df9481d-e8de-4b04-aeec-ac27de27dadc")
 		)
 		(instances
-			(project "Arduino_NMR_5.2"
+			(project "Arduino_NMR_5.4"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/8ed097b2-3a32-47c1-aabf-c914404a5d79"
 					(reference "L3")
 					(unit 1)
@@ -3103,7 +3158,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+		(property "Footprint" "Arduino_NMR:C_0402_1005Metric"
 			(at 153.9748 74.93 0)
 			(hide yes)
 			(show_name no)
@@ -3136,6 +3191,17 @@
 				)
 			)
 		)
+		(property "LCSC Part #" "0402CG1R5C500NT"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "b4c1dc47-fa45-47a4-bda3-52bc61deb722")
 		)
@@ -3143,7 +3209,7 @@
 			(uuid "ce72e1fe-f600-4511-b002-993702f3cd04")
 		)
 		(instances
-			(project "Arduino_NMR_5.2"
+			(project "Arduino_NMR_5.4"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/8ed097b2-3a32-47c1-aabf-c914404a5d79"
 					(reference "C46")
 					(unit 1)
@@ -3184,7 +3250,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+		(property "Footprint" "Arduino_NMR:C_0402_1005Metric"
 			(at 149.86 25.7048 0)
 			(hide yes)
 			(show_name no)
@@ -3217,6 +3283,17 @@
 				)
 			)
 		)
+		(property "LCSC Part #" "0402B102K500NT"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "2329fb24-6eb0-447f-82f4-7b0b9549fb21")
 		)
@@ -3224,7 +3301,7 @@
 			(uuid "40c9928f-4cc8-43ad-8754-62f01bf0898f")
 		)
 		(instances
-			(project "Arduino_NMR_5.2"
+			(project "Arduino_NMR_5.4"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/8ed097b2-3a32-47c1-aabf-c914404a5d79"
 					(reference "C40")
 					(unit 1)
@@ -3302,7 +3379,7 @@
 			(uuid "420f271f-78d1-49e0-a045-f5b1534980e5")
 		)
 		(instances
-			(project "Arduino_NMR_5.2"
+			(project "Arduino_NMR_5.4"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/8ed097b2-3a32-47c1-aabf-c914404a5d79"
 					(reference "#PWR0130")
 					(unit 1)
@@ -3380,7 +3457,7 @@
 			(uuid "f3d76ce6-3923-44bf-bad0-1faf15dd7add")
 		)
 		(instances
-			(project "Arduino_NMR_5.2"
+			(project "Arduino_NMR_5.4"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/8ed097b2-3a32-47c1-aabf-c914404a5d79"
 					(reference "#PWR081")
 					(unit 1)
@@ -3421,7 +3498,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+		(property "Footprint" "Arduino_NMR:C_0402_1005Metric"
 			(at 204.47 67.6148 0)
 			(hide yes)
 			(show_name no)
@@ -3454,6 +3531,17 @@
 				)
 			)
 		)
+		(property "LCSC Part #" "CL05B104KO5NNNC"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "f856364a-d3d9-4754-93eb-55ab2a33d90e")
 		)
@@ -3461,7 +3549,7 @@
 			(uuid "24ef393a-252e-41c6-9031-4a5fef45b5d1")
 		)
 		(instances
-			(project "Arduino_NMR_5.2"
+			(project "Arduino_NMR_5.4"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/8ed097b2-3a32-47c1-aabf-c914404a5d79"
 					(reference "C61")
 					(unit 1)
@@ -3501,7 +3589,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Inductor_SMD:L_1210_3225Metric_Pad1.42x2.65mm_HandSolder"
+		(property "Footprint" "Arduino_NMR:L_1210_3225Metric_Pad1.42x2.65mm_HandSolder"
 			(at 176.53 139.37 0)
 			(hide yes)
 			(show_name no)
@@ -3609,7 +3697,7 @@
 			(uuid "d478bc8f-a7a0-44dd-9a4a-f7042cf5d6bc")
 		)
 		(instances
-			(project "Arduino_NMR_5.2"
+			(project "Arduino_NMR_5.4"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/8ed097b2-3a32-47c1-aabf-c914404a5d79"
 					(reference "L15")
 					(unit 1)
@@ -3650,7 +3738,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_THT:C_Radial_D5.0mm_H5.0mm_P2.00mm"
+		(property "Footprint" "Arduino_NMR:C_Radial_D5.0mm_H5.0mm_P2.00mm"
 			(at 167.3352 30.48 0)
 			(hide yes)
 			(show_name no)
@@ -3690,7 +3778,7 @@
 			(uuid "acee44da-512d-4659-8938-c5c8261b0a4c")
 		)
 		(instances
-			(project "Arduino_NMR_5.2"
+			(project "Arduino_NMR_5.4"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/8ed097b2-3a32-47c1-aabf-c914404a5d79"
 					(reference "C47")
 					(unit 1)
@@ -3768,7 +3856,7 @@
 			(uuid "12f6a7c0-c5fa-4d9c-8fe1-0c75f4d2fb59")
 		)
 		(instances
-			(project "Arduino_NMR_5.2"
+			(project "Arduino_NMR_5.4"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/8ed097b2-3a32-47c1-aabf-c914404a5d79"
 					(reference "#PWR066")
 					(unit 1)
@@ -3807,7 +3895,7 @@
 				)
 			)
 		)
-		(property "Footprint" "imported:PHA13HLN"
+		(property "Footprint" "Arduino_NMR:PHA13HLN"
 			(at 129.54 169.85 0)
 			(hide yes)
 			(show_name no)
@@ -3915,7 +4003,7 @@
 			(uuid "be8aac5f-9830-4f2f-acdc-e82284cfb6a0")
 		)
 		(instances
-			(project "Arduino_NMR_5.2"
+			(project "Arduino_NMR_5.4"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/8ed097b2-3a32-47c1-aabf-c914404a5d79"
 					(reference "IC13")
 					(unit 1)
@@ -3993,7 +4081,7 @@
 			(uuid "7a5de8c9-0a99-454c-9da0-4907dbc80ca2")
 		)
 		(instances
-			(project "Arduino_NMR_5.2"
+			(project "Arduino_NMR_5.4"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/8ed097b2-3a32-47c1-aabf-c914404a5d79"
 					(reference "#PWR048")
 					(unit 1)
@@ -4071,7 +4159,7 @@
 			(uuid "9e9487bb-6cb3-4363-b47f-d96568618490")
 		)
 		(instances
-			(project "Arduino_NMR_5.2"
+			(project "Arduino_NMR_5.4"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/8ed097b2-3a32-47c1-aabf-c914404a5d79"
 					(reference "#PWR0132")
 					(unit 1)
@@ -4147,7 +4235,7 @@
 			(uuid "a4f7e5ce-85d8-425e-b1b4-915202f693c0")
 		)
 		(instances
-			(project "Arduino_NMR_5.2"
+			(project "Arduino_NMR_5.4"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/8ed097b2-3a32-47c1-aabf-c914404a5d79"
 					(reference "#PWR080")
 					(unit 1)
@@ -4186,7 +4274,7 @@
 				)
 			)
 		)
-		(property "Footprint" "imported:PHA13HLN"
+		(property "Footprint" "Arduino_NMR:PHA13HLN"
 			(at 227.33 169.85 0)
 			(hide yes)
 			(show_name no)
@@ -4294,7 +4382,7 @@
 			(uuid "d5207b06-60ff-4668-b5e9-61b51690433f")
 		)
 		(instances
-			(project "Arduino_NMR_5.2"
+			(project "Arduino_NMR_5.4"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/8ed097b2-3a32-47c1-aabf-c914404a5d79"
 					(reference "IC14")
 					(unit 1)
@@ -4372,7 +4460,7 @@
 			(uuid "be9b9c47-e239-4915-b356-c8c38e510127")
 		)
 		(instances
-			(project "Arduino_NMR_5.2"
+			(project "Arduino_NMR_5.4"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/8ed097b2-3a32-47c1-aabf-c914404a5d79"
 					(reference "#PWR094")
 					(unit 1)
@@ -4413,7 +4501,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+		(property "Footprint" "Arduino_NMR:C_0402_1005Metric"
 			(at 30.7848 74.93 0)
 			(hide yes)
 			(show_name no)
@@ -4446,6 +4534,17 @@
 				)
 			)
 		)
+		(property "LCSC Part #" "0402CG1R5C500NT"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "735e8670-5078-4963-842a-910e27abd070")
 		)
@@ -4453,7 +4552,7 @@
 			(uuid "afe1bf31-42cb-490e-a191-aa3d92c6ecc1")
 		)
 		(instances
-			(project "Arduino_NMR_5.2"
+			(project "Arduino_NMR_5.4"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/8ed097b2-3a32-47c1-aabf-c914404a5d79"
 					(reference "C20")
 					(unit 1)
@@ -4494,7 +4593,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder"
+		(property "Footprint" "Arduino_NMR:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder"
 			(at 208.534 67.564 90)
 			(hide yes)
 			(show_name no)
@@ -4527,6 +4626,17 @@
 				)
 			)
 		)
+		(property "LCSC Part #" "0402WGF1501TCE"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "c08f2e60-1a68-438b-921e-bb46611173d6")
 		)
@@ -4534,7 +4644,7 @@
 			(uuid "02d061bf-d992-43fb-a3f6-ca0c048ab4b1")
 		)
 		(instances
-			(project "Arduino_NMR_5.2"
+			(project "Arduino_NMR_5.4"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/8ed097b2-3a32-47c1-aabf-c914404a5d79"
 					(reference "R17")
 					(unit 1)
@@ -4575,7 +4685,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+		(property "Footprint" "Arduino_NMR:C_0603_1608Metric"
 			(at 257.81 73.9648 0)
 			(hide yes)
 			(show_name no)
@@ -4615,7 +4725,7 @@
 			(uuid "961f231a-b60a-4867-8d8c-155fcbc76911")
 		)
 		(instances
-			(project "Arduino_NMR_5.2"
+			(project "Arduino_NMR_5.4"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/8ed097b2-3a32-47c1-aabf-c914404a5d79"
 					(reference "C66")
 					(unit 1)
@@ -4693,7 +4803,7 @@
 			(uuid "82c28d78-9879-451c-94f2-dddb11ae8629")
 		)
 		(instances
-			(project "Arduino_NMR_5.2"
+			(project "Arduino_NMR_5.4"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/8ed097b2-3a32-47c1-aabf-c914404a5d79"
 					(reference "#PWR082")
 					(unit 1)
@@ -4734,7 +4844,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+		(property "Footprint" "Arduino_NMR:C_0603_1608Metric"
 			(at 173.99 73.9648 0)
 			(hide yes)
 			(show_name no)
@@ -4774,7 +4884,7 @@
 			(uuid "d00f1cf7-2a8b-45b3-8aab-9ce63e4d2ce4")
 		)
 		(instances
-			(project "Arduino_NMR_5.2"
+			(project "Arduino_NMR_5.4"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/8ed097b2-3a32-47c1-aabf-c914404a5d79"
 					(reference "C60")
 					(unit 1)
@@ -4814,7 +4924,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Inductor_SMD:L_1210_3225Metric_Pad1.42x2.65mm_HandSolder"
+		(property "Footprint" "Arduino_NMR:L_1210_3225Metric_Pad1.42x2.65mm_HandSolder"
 			(at 123.19 138.1 0)
 			(hide yes)
 			(show_name no)
@@ -4922,7 +5032,7 @@
 			(uuid "f25cf841-0b29-4046-8055-ab79751caea9")
 		)
 		(instances
-			(project "Arduino_NMR_5.2"
+			(project "Arduino_NMR_5.4"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/8ed097b2-3a32-47c1-aabf-c914404a5d79"
 					(reference "L2")
 					(unit 1)

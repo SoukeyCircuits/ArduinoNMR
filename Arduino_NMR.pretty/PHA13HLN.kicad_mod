@@ -1,0 +1,475 @@
+(footprint "PHA13HLN"
+	(version 20260206)
+	(generator "pcbnew")
+	(generator_version "10.0")
+	(layer "F.Cu")
+	(descr "PHA-13HLN+-1")
+	(tags "Integrated Circuit")
+	(property "Reference" "REF**"
+		(at 0.1 -3.8 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "c3a06200-b575-4201-93f7-20b69cf6f398")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(property "Value" "PHA-13HLN+"
+		(at 0 0.148 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "5d626998-c7fb-4486-ac9c-e8643dad9c12")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "13533612-6637-40d0-8690-7d37c53bcde2")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" "PHA-13HLN+ SMT Low Noise Amplifier, 1 - 1000 MHz, 50"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "76d430c5-5b9f-4714-8b8c-f6312955b94c")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Height" "1.6"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "dda37593-454c-4bab-b7b2-922db166a128")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Mouser Part Number" "139-PHA-13HLN"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "aa2d2bf3-4a2a-4bd8-9e71-057d2da20335")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Mini-Circuits/PHA-13HLN%2b?qs=xZ%2FP%252Ba9zWqahVjg7AJIpzg%3D%3D"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "37465e34-66ca-40ec-8042-3daf7f3511a2")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Manufacturer_Name" "Mini-Circuits"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "dda5191b-0c22-4350-8395-1f6337080d97")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Manufacturer_Part_Number" "PHA-13HLN+"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "b2b8d56c-b2a7-452e-98b3-3716f1100563")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(sheetname "/PHA-13HLN+/")
+	(sheetfile "PHA_13HLN.kicad_sch")
+	(attr smd allow_missing_courtyard)
+	(duplicate_pad_numbers_are_jumpers no)
+	(fp_line
+		(start -2.3 -2.055)
+		(end -2.3 -2.055)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "562b356e-408d-4cd8-9dca-79a063b39860")
+	)
+	(fp_line
+		(start -2.3 -2.055)
+		(end -2.3 -2.055)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "5b3286d2-3738-4936-88c1-4128f2462a39")
+	)
+	(fp_line
+		(start -2.3 -2.055)
+		(end -2.3 2.185)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "3e6314c4-46ee-4716-b685-ccd720b8bc80")
+	)
+	(fp_line
+		(start -2.3 -2.055)
+		(end -1.499 -2.055)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "bbdabf5a-d911-4e6f-be16-4d9e7263e85e")
+	)
+	(fp_line
+		(start -2.3 2.185)
+		(end -2.3 -2.055)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "626d5fd0-8602-4b96-9238-91a6a510223f")
+	)
+	(fp_line
+		(start -2.3 2.185)
+		(end -2.3 2.185)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "55a10c0e-5175-46cb-80f3-3360fd1f00ff")
+	)
+	(fp_line
+		(start -1.6 3.165)
+		(end -1.6 3.165)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "d2138211-d6f1-429e-9347-2d64cfd73ee2")
+	)
+	(fp_line
+		(start -1.6 3.165)
+		(end -1.6 3.165)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "d693389e-87ef-4244-9f57-eed6dffdb4e1")
+	)
+	(fp_line
+		(start -1.499 -2.055)
+		(end -2.3 -2.055)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "5cccd08b-93af-4478-9d3c-896c1213e585")
+	)
+	(fp_line
+		(start -1.499 -2.055)
+		(end -1.499 -2.055)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "6a865c66-63d6-45ab-8807-c6e170dbb5f1")
+	)
+	(fp_line
+		(start -1.499 3.165)
+		(end -1.499 3.165)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "5295a9f5-23bc-4053-9d76-fc2ef444e33d")
+	)
+	(fp_line
+		(start 1.499 -2.055)
+		(end 1.499 -2.055)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "e2b072e0-5d2b-4d8c-83fb-53f83803853a")
+	)
+	(fp_line
+		(start 1.499 -2.055)
+		(end 2.3 -2.055)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "5d2a673c-6852-46cd-a5bb-1b6636322a4b")
+	)
+	(fp_line
+		(start 2.3 -2.055)
+		(end 1.499 -2.055)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "7794349f-9fe7-4178-9c40-73c2bca310ba")
+	)
+	(fp_line
+		(start 2.3 -2.055)
+		(end 2.3 -2.055)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "bb7e4ccf-735d-4250-ab8d-e61f2df7ff1b")
+	)
+	(fp_line
+		(start 2.3 -2.055)
+		(end 2.3 -2.055)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "c329ecb6-bf65-424a-84f7-c2f029ce8889")
+	)
+	(fp_line
+		(start 2.3 -2.055)
+		(end 2.3 2.185)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "370d49a7-117a-407e-abdf-95e7a840bddc")
+	)
+	(fp_line
+		(start 2.3 2.185)
+		(end 2.3 -2.055)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "49a9682c-b5ec-4c39-88b8-36d1f6fbcfff")
+	)
+	(fp_line
+		(start 2.3 2.185)
+		(end 2.3 2.185)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "2c7bd50f-dd71-45cf-ac3e-9f1bacf1deff")
+	)
+	(fp_arc
+		(start -1.6 3.166)
+		(mid -1.55 3.115)
+		(end -1.499 3.165)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "e96d507d-3c1b-4d75-8dba-e89bbbff82c5")
+	)
+	(fp_arc
+		(start -1.499 3.166)
+		(mid -1.55 3.216)
+		(end -1.6 3.165)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "171ebdd5-ed75-4944-a7d0-74a21fab206e")
+	)
+	(fp_arc
+		(start -1.499 3.166)
+		(mid -1.55 3.216)
+		(end -1.6 3.165)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "f3b93a97-076a-433b-a1f4-3e9701aa5c3b")
+	)
+	(fp_line
+		(start -3.3 -3.92)
+		(end 3.3 -3.92)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "734a24c9-1268-4a04-8ca4-38fc66481324")
+	)
+	(fp_line
+		(start -3.3 4.216)
+		(end -3.3 -3.92)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "15b011d6-10cc-40e4-a997-f6daa8e0ede8")
+	)
+	(fp_line
+		(start 3.3 -3.92)
+		(end 3.3 4.216)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "02475eef-0ff1-460c-8997-db7203f1a3ae")
+	)
+	(fp_line
+		(start 3.3 4.216)
+		(end -3.3 4.216)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "10b48889-48e4-4a36-bd0b-4b1cd80306c6")
+	)
+	(fp_line
+		(start -2.3 -2.055)
+		(end -2.3 2.185)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "c5643d0b-bdfb-43e6-a1c9-ae1623a7d665")
+	)
+	(fp_line
+		(start -2.3 2.185)
+		(end 2.3 2.185)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "6fa1eb36-cfc2-4ea4-8539-6091c0feecac")
+	)
+	(fp_line
+		(start 2.3 -2.055)
+		(end -2.3 -2.055)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "dff8c5fe-3317-4bb2-85f5-88fc6d6a50f1")
+	)
+	(fp_line
+		(start 2.3 2.185)
+		(end 2.3 -2.055)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "44eb2ec9-573a-4376-a259-5fc232fa93e1")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 0.148 0)
+		(layer "F.Fab")
+		(uuid "7ccf8d46-9b53-41d5-9281-94e9cd26079f")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(pad "1" smd rect
+		(at -1.499 1.665)
+		(size 0.711 1.499)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "f4fffc26-adf0-40ad-8925-bf0a29bee5ba")
+	)
+	(pad "2" smd rect
+		(at 0 1.206)
+		(size 0.914 2.413)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "90bfae1c-c7e4-4d50-ba3f-c739185aedca")
+	)
+	(pad "3" smd rect
+		(at 1.499 1.665)
+		(size 0.711 1.499)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "e964543b-0653-401e-9428-5af5ae9f9fa6")
+	)
+	(pad "4" smd rect
+		(at 0 -1.463)
+		(size 1.905 2.921)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "b7e25410-64c4-45fe-bff0-94cb6453ca1b")
+	)
+	(embedded_fonts no)
+	(model "PHA-13HLN+.stp"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)

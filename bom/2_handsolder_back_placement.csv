@@ -1,0 +1,14 @@
+﻿Designator,Value,Footprint,Side,Mid X,Mid Y,Rotation
+C10,100 nF,0805,bottom,144.86,-60.51,270.0
+C17,100 nF,0805,bottom,142.79,-60.49,270.0
+C18,100 nF,0805,bottom,140.74,-60.51,270.0
+C19,100 nF,0805,bottom,139.9,-53.1,180.0
+C24,100 nF,0805,bottom,143.3,-56.46,0.0
+C29,100 pF,0805,bottom,122.24,-58.43,270.0
+C33,100 pF,0805,bottom,118.19,-44.03,180.0
+C39,100 pF,0805,bottom,118.1675,-41.91,180.0
+C47,100 uF,C_Radial_D5.0mm_H5.0mm_P2.00mm,bottom,136.8985,-85.674875,270.0
+J4,Conn_01x02,PinHeader_1x02_P2.54mm_Vertical,bottom,147.505,-48.2745,90.0
+J5,Digital,PinHeader_2x18_P2.54mm_Vertical,bottom,157.67,-69.8645,180.0
+J10,Conn_01x02,PinHeader_1x02_P2.54mm_Vertical,bottom,106.895,-96.53,270.0
+J12,Conn_01x02,PinHeader_1x02_P2.54mm_Vertical,bottom,114.485,-96.53,270.0

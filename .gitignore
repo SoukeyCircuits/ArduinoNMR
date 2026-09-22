@@ -6,6 +6,10 @@ _autosave-*
 ~*.lck
 *-backups/
 
+# Per-user local state and crash-recovery leftovers
+*.kicad_prl
+_recovered-autosave-*
+
 # KiCad transient/cache files
 *.TMP
 *~

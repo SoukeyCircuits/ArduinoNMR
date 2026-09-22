@@ -1,0 +1,17 @@
+﻿Comment,Designator,Footprint,Quantity,Category,Notes,Supplier,Supplier Part # / Link
+Conn_01x05,J7,PinHeader_1x05_P2.54mm_Vertical,1,Connector (THT),Through-hole connector - hand solder.,,
+Conn_01x12,J2,PinHeader_1x12_P2.54mm_Vertical,1,Connector (THT),Through-hole connector - hand solder.,,
+RX1,J11,SMA_Amphenol_901-144_Vertical,1,Connector (THT),Through-hole connector - hand solder.,,
+RX2,J40,SMA_Amphenol_901-144_Vertical,1,Connector (THT),Through-hole connector - hand solder.,,
+Ringdown,"J6, J41",SMA_Amphenol_901-144_Vertical,2,Connector (THT),Through-hole connector - hand solder.,,
+TX1,J8,SMA_Amphenol_901-144_Vertical,1,Connector (THT),Through-hole connector - hand solder.,,
+180 pF,"C141, C142, C143, C144, C145, C146, C150, C151, C152, C153",0805,10,Filter capacitor,"Filter capacitor - choose value to suit the required filtering. If filtering is done off-board, DNP. Do NOT bridge with 0 ohm jumper resistors.",,
+47 pF,"C62, C63, C67, C68, C69, C147, C148, C149, C154, C155",0805,10,Filter capacitor,"Filter capacitor - choose value to suit the required filtering. If filtering is done off-board, DNP. Do NOT bridge with 0 ohm jumper resistors.",,
+330 nH,"L13, L14, L16, L17, L18, L47, L48, L49, L52, L53",0805,10,Filter inductor,"Filter inductor - choose value to suit the required filtering. If filtering is done after the board, replace with a 0 ohm jumper resistor (0805).",,
+470 nH,"L44, L45, L46, L50, L51",0805,5,Filter inductor,"Filter inductor - choose value to suit the required filtering. If filtering is done after the board, replace with a 0 ohm jumper resistor (0805).",,
+D,D1,D_SMA_Handsoldering,1,Protection diode,"Protection diode - VALUE TBD, confirm before ordering. Hand solder.",,
+RFShield_OnePiece,J32,RF Shield_2,1,RF shield,RF shield - hand solder after all other assembly.,Mouser,https://www.mouser.com/en/ProductDetail/388-MS329-10S
+RFShield_OnePiece,J17,RF Shield_3,1,RF shield,RF shield - hand solder after all other assembly.,Mouser,https://www.mouser.com/en/ProductDetail/388-MS329-10S
+RFShield_OnePiece,J16,RF Shield_1,1,RF shield,RF shield - hand solder after all other assembly.,Mouser,https://www.mouser.com/en/ProductDetail/388-MS329-10S
+Jumper_2_Open,"JP2, JP5, JP8",SolderJumper-2_P1.3mm_Open_Pad1.0x1.5mm,3,Solder jumper,PCB solder bridge - nothing to purchase; bridge by hand as required.,,
+SolderJumper_3_Open,JP4,SolderJumper-3_P1.3mm_Open_Pad1.0x1.5mm,1,Solder jumper,PCB solder bridge - nothing to purchase; bridge by hand as required.,,

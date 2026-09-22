@@ -50,7 +50,23 @@
         "silk_text_thickness": 0.1,
         "silk_text_upright": false,
         "zones": {
-          "min_clearance": 0.508
+          "border_display_style": 2,
+          "border_hatch_pitch": 0.5,
+          "corner_radius": 0.0,
+          "corner_smoothing": 0,
+          "fill_mode": 0,
+          "hatch_gap": 1.5,
+          "hatch_orientation": 0.0,
+          "hatch_smoothing_level": 0,
+          "hatch_smoothing_value": 0.1,
+          "hatch_thickness": 1.0,
+          "min_clearance": 0.508,
+          "min_island_area": 10.0,
+          "min_thickness": 0.25,
+          "pad_connection": 1,
+          "remove_islands": 0,
+          "thermal_relief_gap": 0.5,
+          "thermal_relief_spoke_width": 0.5
         }
       },
       "diff_pair_dimensions": [
@@ -493,7 +509,7 @@
     "pinned_symbol_libs": []
   },
   "meta": {
-    "filename": "Arduino_NMR_5.2.kicad_pro",
+    "filename": "Arduino_NMR_5.4.kicad_pro",
     "version": 3
   },
   "net_settings": {
@@ -744,18 +760,22 @@
     "subpart_id_separator": 0,
     "top_level_sheets": [
       {
-        "filename": "Arduino_NMR_5.2.kicad_sch",
-        "name": "Arduino_NMR_5.2",
+        "filename": "Arduino_NMR_5.4.kicad_sch",
+        "name": "Arduino_NMR_5.4",
         "uuid": "e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
       }
     ],
-    "used_designators": "",
+    "used_designators": "R2,R18,IC6,J1-3,J7,#PWR62,#PWR95-99,#PWR101-104,#PWR106,#PWR125-126,#PWR129,#PWR236-237",
     "variants": []
   },
   "sheets": [
     [
       "e63e39d7-6ac0-4ffd-8aa3-1841a4541b55",
-      "Arduino_NMR_5.2"
+      "Arduino_NMR_5.4"
+    ],
+    [
+      "f68040a4-c9b3-4230-aa57-1fda0113a59a",
+      "Power"
     ],
     [
       "8ed097b2-3a32-47c1-aabf-c914404a5d79",
@@ -764,10 +784,6 @@
     [
       "ba1ac4ed-775b-415e-9815-38cf646c8eba",
       "Arduino Giga Sheet"
-    ],
-    [
-      "f68040a4-c9b3-4230-aa57-1fda0113a59a",
-      "Power"
     ]
   ],
   "text_variables": {},

@@ -5005,7 +5005,7 @@
 			(uuid "3d8d8906-b49a-451d-8f9f-0d04cb58704c")
 		)
 		(instances
-			(project "Arduino_NMR_5.2"
+			(project "Arduino_NMR_5.4"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/f7cdad34-c0d3-45c9-a539-b3645db16325"
 					(reference "JP3")
 					(unit 1)

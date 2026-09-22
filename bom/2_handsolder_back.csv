@@ -1,0 +1,6 @@
+﻿Comment,Designator,Footprint,Quantity,Category,Notes,Supplier,Supplier Part # / Link
+100 uF,C47,C_Radial_D5.0mm_H5.0mm_P2.00mm,1,Bulk cap (THT),Through-hole electrolytic on the BACK side - hand solder.,,
+Conn_01x02,"J4, J10, J12",PinHeader_1x02_P2.54mm_Vertical,3,Connector (THT),Through-hole connector on the BACK side - hand solder.,,
+Digital,J5,PinHeader_2x18_P2.54mm_Vertical,1,Connector (THT),Through-hole connector on the BACK side - hand solder.,,
+100 nF,"C10, C17, C18, C19, C24",0805,5,Decoupling,Back-side hand soldering.,,
+100 pF,"C29, C33, C39",0805,3,Decoupling,Back-side hand soldering.,,

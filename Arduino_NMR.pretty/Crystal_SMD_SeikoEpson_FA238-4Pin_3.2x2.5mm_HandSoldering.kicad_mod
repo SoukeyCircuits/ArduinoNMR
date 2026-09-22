@@ -1,0 +1,249 @@
+(footprint "Crystal_SMD_SeikoEpson_FA238-4Pin_3.2x2.5mm_HandSoldering"
+	(version 20260206)
+	(generator "pcbnew")
+	(generator_version "10.0")
+	(layer "F.Cu")
+	(descr "crystal Epson Toyocom FA-238 series https://support.epson.biz/td/api/doc_check.php?dl=brief_fa-238v_en.pdf, hand-soldering, 3.2x2.5mm^2 package")
+	(tags "SMD SMT crystal hand-soldering")
+	(property "Reference" "REF**"
+		(at 3.692 -0.105 270)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "ce0043f7-2c7a-4236-ab1d-37e76ad3440d")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "ABM8G-25.000MHZ-B4Y-T"
+		(at 0 3 180)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "9216b979-36f9-40ab-85fd-7f98c7abf6ca")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "e521fb75-a1f8-4ab3-ba7b-dff58b0c7db9")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" "Four pin crystal, GND on pins 2 and 4"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "a03870e1-9304-4d07-9502-b3be2298eb6c")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property ki_fp_filters "Crystal*")
+	(sheetname "/Arduino Giga Sheet/")
+	(sheetfile "Arduino Giga .kicad_sch")
+	(attr smd)
+	(duplicate_pad_numbers_are_jumpers no)
+	(fp_line
+		(start -2.7 -2.2)
+		(end -2.7 2.2)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "af07d477-f30c-44a6-a720-8f101d712491")
+	)
+	(fp_line
+		(start -2.7 2.2)
+		(end 2.7 2.2)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "3d5e5dba-68ee-485e-a608-b1cfb1c4f1bf")
+	)
+	(fp_line
+		(start -2.8 -2.3)
+		(end -2.8 2.3)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "f8aafc78-b3df-495b-ac09-b5364be7356d")
+	)
+	(fp_line
+		(start -2.8 2.3)
+		(end 2.8 2.3)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "8c328722-8447-47c6-adce-51f9af7a7699")
+	)
+	(fp_line
+		(start 2.8 -2.3)
+		(end -2.8 -2.3)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "fd51191e-4491-48a5-b629-d19bced3eaba")
+	)
+	(fp_line
+		(start 2.8 2.3)
+		(end 2.8 -2.3)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "f86aae53-6aae-4c24-aa4d-40dac9f8a707")
+	)
+	(fp_line
+		(start -1.6 -1.15)
+		(end -1.5 -1.25)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "b443be20-3411-4e5a-a557-9ef21079d174")
+	)
+	(fp_line
+		(start -1.6 0.25)
+		(end -0.6 1.25)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "f64dfe59-3996-437b-b353-f032c2d262a1")
+	)
+	(fp_line
+		(start -1.6 1.15)
+		(end -1.6 -1.15)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "d3d6a486-35b6-4fe4-a3c1-21cff0ee34ad")
+	)
+	(fp_line
+		(start -1.5 -1.25)
+		(end 1.5 -1.25)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "8b52b336-bc7e-4b91-ae7f-37ee736a957d")
+	)
+	(fp_line
+		(start -1.5 1.25)
+		(end -1.6 1.15)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "24637462-6202-467c-be6a-603b43efb9e7")
+	)
+	(fp_line
+		(start 1.5 -1.25)
+		(end 1.6 -1.15)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "c7e8c468-b54c-4a51-8cfa-ce355bf202cb")
+	)
+	(fp_line
+		(start 1.5 1.25)
+		(end -1.5 1.25)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "606a4cfd-e7da-4970-ad9a-a8efe092a08e")
+	)
+	(fp_line
+		(start 1.6 -1.15)
+		(end 1.6 1.15)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "68ec1a2b-9a8f-4933-a3a5-c6818b1ab789")
+	)
+	(fp_line
+		(start 1.6 1.15)
+		(end 1.5 1.25)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "31c8439f-f43f-42d9-a270-eb590900cf87")
+	)
+	(pad "1" smd rect
+		(at -1.45 1.1)
+		(size 2.1 1.8)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "eaa80e3c-9d54-4811-8ec7-73b367aaa309")
+	)
+	(pad "2" smd rect
+		(at 1.45 1.1)
+		(size 2.1 1.8)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "decf8146-c3ea-428c-803b-365e21d7dbf5")
+	)
+	(pad "3" smd rect
+		(at 1.45 -1.1)
+		(size 2.1 1.8)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "32a6183c-682d-458a-ba1c-4530b02512b1")
+	)
+	(pad "4" smd rect
+		(at -1.45 -1.1)
+		(size 2.1 1.8)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "a0df0653-7fa0-4894-9632-a5a4c241d548")
+	)
+	(embedded_fonts no)
+	(model "${KICAD10_3DMODEL_DIR}/Crystal.3dshapes/Crystal_SMD_SeikoEpson_FA238-4Pin_3.2x2.5mm_HandSoldering.step"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)
