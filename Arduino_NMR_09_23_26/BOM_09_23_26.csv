@@ -1,0 +1,58 @@
+﻿Assembly,Value,Designator,Footprint,Qty,Category,Part Number,Supplier,Link,Notes
+JLCPCB assembly (front),0603CS-5N1XJLW,"L1, L3",0603,2,SMD,,JLCPCB,,Pick from JLC suggested parts
+JLCPCB assembly (front),1 nF,"C40, C64",0402,2,SMD,0402B102K500NT,JLCPCB,,
+JLCPCB assembly (front),1 nF,"C2, C4, C5, C6, C15, C16",0805,6,SMD,,JLCPCB,,Pick from JLC suggested parts
+JLCPCB assembly (front),1 uF,C48,0805,1,SMD,,JLCPCB,,Pick from JLC suggested parts
+JLCPCB assembly (front),1.5 k,"R16, R17",0402,2,SMD,0402WGF1501TCE,JLCPCB,,
+JLCPCB assembly (front),1.5 pF,"C20, C46",0402,2,SMD,0402CG1R5C500NT,JLCPCB,,
+JLCPCB assembly (front),10 uF,"C41, C65",0805,2,SMD,GRM21BR61H106KE43L,JLCPCB,,
+JLCPCB assembly (front),100 nF,"C1, C3, C14, C34, C43",0805,5,SMD,,JLCPCB,,Pick from JLC suggested parts
+JLCPCB assembly (front),100 nF,"C31, C61",0402,2,SMD,CL05B104KO5NNNC,JLCPCB,,
+JLCPCB assembly (front),100 pF,"C8, C9, C27, C28",0805,4,SMD,,JLCPCB,,Pick from JLC suggested parts
+JLCPCB assembly (front),100Ω,"R1, R6, R7, R13, R14, R15",0805,6,SMD,,JLCPCB,,Pick from JLC suggested parts
+JLCPCB assembly (front),10kΩ,"R3, R4, R9, R10",0805,4,SMD,,JLCPCB,,Pick from JLC suggested parts
+JLCPCB assembly (front),1kΩ,"R5, R8",0805,2,SMD,0805W8F1001T5E,JLCPCB,,
+JLCPCB assembly (front),2.2 uF,"C30, C45, C60, C66",0603,4,SMD,,JLCPCB,,Pick from JLC suggested parts
+JLCPCB assembly (front),50Ω,R18,0805,1,SMD,,JLCPCB,,Pick from JLC suggested parts
+JLCPCB assembly (front),ABM8G-25.000MHZ-B4Y-T,Y1,Crystal_SMD_SeikoEpson_FA238-4Pin_3.2x2.5mm_HandSoldering,1,SMD,,JLCPCB,,Pick from JLC suggested parts
+JLCPCB assembly (front),ADG904BRUZ-REEL7,IC3,ADG904BRUZ,1,SMD,,JLCPCB,,Pick from JLC suggested parts
+JLCPCB assembly (front),LM4562MAX/NOPB,U4,SOIC-8-1EP_3.9x4.9mm_P1.27mm_EP2.29x3mm_nobottomgnd,1,SMD,,JLCPCB,,Pick from JLC suggested parts
+JLCPCB assembly (front),LQH32DZ150K53L,"L2, L15",1210,2,SMD,,JLCPCB,,Pick from JLC suggested parts
+JLCPCB assembly (front),PE4251MLI-Z,"IC4, IC8, IC10, IC11",SOP65P490X106-9N,4,SMD,,JLCPCB,,Pick from JLC suggested parts
+JLCPCB assembly (front),PE43711B-Z,AT2,PE43711B-Z,1,SMD,,JLCPCB,,Pick from JLC suggested parts
+JLCPCB assembly (front),PHA-13HLN+,"IC13, IC14",PHA13HLN,2,SMD,,JLCPCB,,Pick from JLC suggested parts
+JLCPCB assembly (front),SN74LV1T04DBVR,"IC1, IC2, IC12",SOT95P280X145-5N,3,SMD,,JLCPCB,,Pick from JLC suggested parts
+JLCPCB assembly (front),SN74LV4052ADR,U1,SOIC-16_3.9x9.9mm_P1.27mm,1,SMD,,JLCPCB,,Pick from JLC suggested parts
+JLCPCB assembly (front),Si5351A-B-GM,U2,QFN-20-1EP_4x4mm_P0.5mm_EP2.7x2.7mm,1,SMD,,JLCPCB,,Pick from JLC suggested parts
+JLCPCB assembly (front),TLV74125PDBVR,IC5,SOT95P280X145-5N,1,SMD,,JLCPCB,,Pick from JLC suggested parts
+Hand solder (back),100 uF,C47,C_Radial_D5.0mm_H5.0mm_P2.00mm,1,Bulk cap (THT),,,,Through-hole electrolytic on the BACK side - hand solder.
+Hand solder (back),Conn_01x02,"J4, J10, J12",PinHeader_1x02_P2.54mm_Vertical,3,Connector (THT),,,,Through-hole connector on the BACK side - hand solder.
+Hand solder (back),Digital,J5,PinHeader_2x18_P2.54mm_Vertical,1,Connector (THT),,,,Through-hole connector on the BACK side - hand solder.
+Hand solder (back),100 nF,"C10, C17, C18, C19, C24",0805,5,Decoupling,,,,Back-side hand soldering.
+Hand solder (back),100 pF,"C29, C33, C39",0805,3,Decoupling,,,,Back-side hand soldering.
+Hand solder (front),Conn_01x05,J7,PinHeader_1x05_P2.54mm_Vertical,1,Connector (THT),,,,Through-hole connector - hand solder.
+Hand solder (front),Conn_01x12,J2,PinHeader_1x12_P2.54mm_Vertical,1,Connector (THT),,,,Through-hole connector - hand solder.
+Hand solder (front),RX1,J11,SMA_Amphenol_901-144_Vertical,1,Connector (THT),,,,Through-hole connector - hand solder.
+Hand solder (front),RX2,J40,SMA_Amphenol_901-144_Vertical,1,Connector (THT),,,,Through-hole connector - hand solder.
+Hand solder (front),Ringdown,"J6, J41",SMA_Amphenol_901-144_Vertical,2,Connector (THT),,,,Through-hole connector - hand solder.
+Hand solder (front),TX1,J8,SMA_Amphenol_901-144_Vertical,1,Connector (THT),,,,Through-hole connector - hand solder.
+Hand solder (front),180 pF,"C141, C142, C143, C144, C145, C146, C150, C151, C152, C153",0805,10,Filter capacitor,,,,"Filter capacitor - choose value to suit the required filtering. If filtering is done off-board, DNP. Do NOT bridge with 0 ohm jumper resistors."
+Hand solder (front),47 pF,"C62, C63, C67, C68, C69, C147, C148, C149, C154, C155",0805,10,Filter capacitor,,,,"Filter capacitor - choose value to suit the required filtering. If filtering is done off-board, DNP. Do NOT bridge with 0 ohm jumper resistors."
+Hand solder (front),330 nH,"L13, L14, L16, L17, L18, L47, L48, L49, L52, L53",0805,10,Filter inductor,,,,"Filter inductor - choose value to suit the required filtering. If filtering is done after the board, replace with a 0 ohm jumper resistor (0805)."
+Hand solder (front),470 nH,"L44, L45, L46, L50, L51",0805,5,Filter inductor,,,,"Filter inductor - choose value to suit the required filtering. If filtering is done after the board, replace with a 0 ohm jumper resistor (0805)."
+Hand solder (front),D,D1,D_SMA_Handsoldering,1,Protection diode,,,,"Protection diode - VALUE TBD, confirm before ordering. Hand solder."
+Hand solder (front),RFShield_OnePiece,J32,RF Shield_2,1,RF shield,,Mouser,https://www.mouser.com/en/ProductDetail/388-MS329-10S,RF shield - hand solder after all other assembly.
+Hand solder (front),RFShield_OnePiece,J17,RF Shield_3,1,RF shield,,Mouser,https://www.mouser.com/en/ProductDetail/388-MS329-10S,RF shield - hand solder after all other assembly.
+Hand solder (front),RFShield_OnePiece,J16,RF Shield_1,1,RF shield,,Mouser,https://www.mouser.com/en/ProductDetail/388-MS329-10S,RF shield - hand solder after all other assembly.
+Hand solder (front),Jumper_2_Open,"JP2, JP5, JP8",SolderJumper-2_P1.3mm_Open_Pad1.0x1.5mm,3,Solder jumper,,,,PCB solder bridge - nothing to purchase; bridge by hand as required.
+Hand solder (front),SolderJumper_3_Open,JP4,SolderJumper-3_P1.3mm_Open_Pad1.0x1.5mm,1,Solder jumper,,,,PCB solder bridge - nothing to purchase; bridge by hand as required.
+External (not on PCB),Aluminium enclosure,,,1,,,Amazon,https://www.amazon.com/dp/B012SYN4OO,
+External (not on PCB),M3 standoffs,,,1,Assorted M3 standoff kit,,AliExpress,https://www.aliexpress.us/item/3256808109877301.html,
+External (not on PCB),Arduino Giga R1 WiFi,,,1,ABX00063 - board only,,Amazon,https://www.amazon.com/dp/B0BTTRZ9TB,Alternative with display: https://www.amazon.com/dp/B0G1L5C7MG
+External (not on PCB),USB-C power supply,,,1,,,Amazon,https://www.amazon.com/dp/B0CYZHY7BX,
+External (not on PCB),USB-C cable,,,1,,,Amazon,https://www.amazon.com/dp/B0CJY9PRNY,Alternative: https://www.amazon.com/dp/B0BLYXSTSQ
+External (not on PCB),SMA connectors,,,1,"SMA-KWE 17 mm, 50 pcs",,AliExpress,https://www.aliexpress.us/item/3256808128195000.html,Mates with the board SMA footprints
+External (not on PCB),2.54 mm header pins,,,1,"40P strip, cut to size",,AliExpress,https://www.aliexpress.us/item/3256806907643797.html,
+External (not on PCB),Heat sink - LNA,,,0,,,,,TBD
+External (not on PCB),Enclosure fan,,,0,,,,,TBD
+External (not on PCB),0 ohm jumper resistors 0805,,,0,Only if filtering is done off-board - see filter inductor note,,,,

@@ -16,7 +16,7 @@ _recovered-autosave-*
 fp-info-cache*
 
 # Dated backup archives (regenerable from source)
-production/backups/
+**/production/backups/
 
 # Editor/tooling local history
 .history/

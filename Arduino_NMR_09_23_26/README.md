@@ -53,13 +53,11 @@ Finally, the I/Q signal is measured using the Arduino Giga’s built in ADC pins
 
 ## Repository layout
 
-The current board lives at the repository root; see `CHANGELOG.md` for what changed since June.
+See `CHANGELOG.md` for what changed since June.
 
-- `Arduino_NMR_5.4.kicad_pro` — open this in KiCad 10 (schematic, PCB, and sub-sheets alongside it)
-- `Arduino_NMR.pretty/` — every footprint the board uses, so a fresh clone opens with no missing libraries
-- `bom/` — JLCPCB assembly BOM + placement, hand-solder lists (front and back), and external parts
-- `tools/split_bom.py` — regenerates `bom/` from the KiCad files
-- `archive/` — unused schematic sheets kept for reference
-- `Arduino_NMR_06_01_26/` — the June 2026 (v5.2) upload, kept as-is
+- `BOM_09_23_26.csv` — every part: JLCPCB assembly, hand solder (front and back), and off-board items with links
+- `KiCad_Files/Arduino_NMR_5.4.kicad_pro` — open this in KiCad 10
+- `KiCad_Files/production/1_jlcpcb_assembly.csv` + `1_jlcpcb_assembly_cpl.csv` — the files to upload to JLCPCB
+- `../Past Boards/` — earlier revisions, kept as they were
 
-Released boards are tagged in git (e.g. `v5.4-production`); check out a tag to get the exact files sent to fabrication.
+Released boards are tagged in git (e.g. `v5.4-production`).

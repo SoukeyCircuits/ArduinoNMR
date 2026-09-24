@@ -51,11 +51,14 @@ the capacitors are left unpopulated.
   dropped from its stock library, from the board itself
 - 261 footprint references repointed; dead `Library` entry removed from
   `fp-lib-table`
-- `tools/split_bom.py` — splits the board into JLCPCB assembly (63), back-side
-  hand solder (13), front-side hand solder (50) and off-board parts, with
-  matching placement files
-- `tools/check_selfcontained.py` — pre-push guard, passes 32/32
-- Six sheets not in the hierarchy moved to `archive/`
+- Repository reorganised: this board in `Arduino_NMR_09_23_26/` with the
+  KiCad project in `KiCad_Files/`, and the June board in `Past Boards/`
+- One combined BOM, `BOM_09_23_26.csv`, covering JLCPCB assembly, back- and
+  front-side hand solder, and off-board parts
+- JLCPCB upload files are `KiCad_Files/production/1_jlcpcb_assembly.csv` and
+  `1_jlcpcb_assembly_cpl.csv`; the raw Fabrication Toolkit output is kept as
+  `donotuse_bom.csv` / `donotuse_positions.csv`
+- Sheets not in the hierarchy removed
 
 ---
 
@@ -68,8 +71,8 @@ the capacitors are left unpopulated.
 
 ## Companion boards
 
-Developed alongside 5.4 and sent to production the same day, in their own
-repositories:
+Developed alongside 5.4 and sent to production the same day, in its own
+repository:
 
 - **usbc-power 1.0** — 9 V USB-C PD sink (HUSB238A-BB001) with the +8 V and
   +3.3 V regulators moved across from this board, plus a TL431A hardware
