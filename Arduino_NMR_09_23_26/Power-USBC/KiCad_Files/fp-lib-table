@@ -1,0 +1,4 @@
+(fp_lib_table
+	(version 7)
+	(lib (name "usbc-power")(type "KiCad")(uri "${KIPRJMOD}/usbc-power.pretty")(options "")(descr "Footprints used by the USB-C PD input"))
+)

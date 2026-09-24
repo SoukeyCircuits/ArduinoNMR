@@ -55,9 +55,11 @@ Finally, the I/Q signal is measured using the Arduino Giga’s built in ADC pins
 
 See `CHANGELOG.md` for what changed since June.
 
-- `BOM_09_23_26.csv` — every part: JLCPCB assembly, hand solder (front and back), and off-board items with links
-- `KiCad_Files/Arduino_NMR_5.4.kicad_pro` — open this in KiCad 10
-- `KiCad_Files/production/1_jlcpcb_assembly.csv` + `1_jlcpcb_assembly_cpl.csv` — the files to upload to JLCPCB
-- `../Past Boards/` — earlier revisions, kept as they were
+- `BOM_09_23_26.csv` — every part for the main board: JLCPCB assembly, hand solder (front and back), and off-board items with links
+- `Arduino_NMR_09_23_26/KiCad_Files/Arduino_NMR_5.4.kicad_pro` — main board; open in KiCad 10
+- `Arduino_NMR_09_23_26/KiCad_Files/production/1_jlcpcb_assembly.csv` + `1_jlcpcb_assembly_cpl.csv` — the files to upload to JLCPCB
+- `Arduino_NMR_09_23_26/Power-USBC/` — USB-C PD power board (9 V in, +8 V / +3.3 V out)
+- `Arduino_NMR_09_23_26/Power_Barrel/` — barrel-jack version of the power board
+- `Past Boards/` — earlier revisions, kept as they were
 
-Released boards are tagged in git (e.g. `v5.4-production`).
+Each power board folder has its own README, BOM, schematic PDF and JLCPCB files. Released boards are tagged in git (e.g. `v5.4-production`).

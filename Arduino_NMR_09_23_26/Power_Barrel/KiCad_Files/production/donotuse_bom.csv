@@ -1,0 +1,6 @@
+﻿Designator,Footprint,Quantity,Value,LCSC Part #
+"C12, C25, C26, C28",0805,4,10 nF,
+IC25,SOIC127P600X100-9N,1,BD33GA5WEFJ-E2,
+IC7,SOIC127P600X100-9N,1,BD80GC0VEFJ-ME2,
+J2,PinHeader_1x12_P2.54mm_Vertical,1,Conn_01x12,
+J4,PinHeader_2x05_P2.54mm_Horizontal,1,Conn_02x05_Odd_Even,

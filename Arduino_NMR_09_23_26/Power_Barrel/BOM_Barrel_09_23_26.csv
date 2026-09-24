@@ -1,0 +1,10 @@
+﻿Assembly,Value,Designator,Footprint,Qty,Category,Part Number,Supplier,Link,Notes
+JLCPCB assembly (front),10 nF,"C12, C25, C26, C28",0805,4,SMD,,JLCPCB,,Pick from JLC suggested parts
+JLCPCB assembly (front),BD80GC0VEFJ-ME2,IC7,SOIC127P600X100-9N,1,SMD,,JLCPCB,,Pick from JLC suggested parts
+Hand solder (front),PJ-058B,J1,PJ058B,1,Barrel jack (THT),PJ-058B,,,Through-hole - hand solder.
+Hand solder (front),BD33GA5WEFJ-E2,IC25,SOIC127P600X100-9N,1,3.3 V LDO,,,,"Out of stock at JLCPCB - hand solder, order separately."
+Hand solder (front),Conn_01x12,J2,PinHeader_1x12_P2.54mm_Vertical,1,Connector (THT),,AliExpress,https://www.aliexpress.us/item/3256806907643797.html,Cut to length from a 40P single-row 2.54 mm strip.
+Hand solder (front),Conn_02x05_Odd_Even,J4,PinHeader_2x05_P2.54mm_Horizontal,1,Connector (THT),,AliExpress,https://www.aliexpress.us/item/3256806736246215.html,Right-angle dual-row header - mates coplanar with the RF board.
+External (not on PCB),2.54 mm header sockets,,,1,Mating half for J2 / J4 on the RF board,,,,
+External (not on PCB),M3 standoffs,,,1,Register the two boards so the connectors cannot slide a column,,AliExpress,https://www.aliexpress.us/item/3256808109877301.html,
+External (not on PCB),Barrel-jack power supply,,,1,"9-12 V DC, 2.1 mm centre-positive - confirm against PJ-058B",,,,TBD

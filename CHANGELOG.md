@@ -51,11 +51,12 @@ the capacitors are left unpopulated.
   dropped from its stock library, from the board itself
 - 261 footprint references repointed; dead `Library` entry removed from
   `fp-lib-table`
-- Repository reorganised: this board in `Arduino_NMR_09_23_26/` with the
-  KiCad project in `KiCad_Files/`, and the June board in `Past Boards/`
+- Repository reorganised: this board's KiCad project in
+  `Arduino_NMR_09_23_26/KiCad_Files/`, the power boards beside it, and the June
+  board in `Past Boards/`
 - One combined BOM, `BOM_09_23_26.csv`, covering JLCPCB assembly, back- and
   front-side hand solder, and off-board parts
-- JLCPCB upload files are `KiCad_Files/production/1_jlcpcb_assembly.csv` and
+- JLCPCB upload files are `Arduino_NMR_09_23_26/KiCad_Files/production/1_jlcpcb_assembly.csv` and
   `1_jlcpcb_assembly_cpl.csv`; the raw Fabrication Toolkit output is kept as
   `donotuse_bom.csv` / `donotuse_positions.csv`
 - Sheets not in the hierarchy removed
@@ -71,9 +72,10 @@ the capacitors are left unpopulated.
 
 ## Companion boards
 
-Developed alongside 5.4 and sent to production the same day, in its own
-repository:
+Developed alongside 5.4, in `Arduino_NMR_09_23_26/`:
 
-- **usbc-power 1.0** — 9 V USB-C PD sink (HUSB238A-BB001) with the +8 V and
-  +3.3 V regulators moved across from this board, plus a TL431A hardware
-  over-voltage interlock
+- **Power-USBC 1.0** — *sent to production 2026-09-22.* 9 V USB-C PD sink
+  (HUSB238A-BB001) with the +8 V and +3.3 V regulators moved across from this
+  board, a TL431A hardware over-voltage interlock, and three rail indicator LEDs
+- **Power_Barrel** — *not yet ordered.* Barrel-jack version of the same board,
+  with no PD negotiation or interlock
