@@ -17,6 +17,10 @@ To do list:
 	
   -Upload control code
 	
+  -Upload Arduino NMR pulse code (being edited for release)
+	
+  -Upload CAD/CAM designs for the housing and end plates
+	
   -Add Arduino Giga Display + display software
 	
   -Show preliminary results from working device
