@@ -1,0 +1,22 @@
+cff-version: 1.2.0
+message: "If you use this design, please cite it using the metadata below."
+title: "Arduino NMR: an Arduino Giga-based spectrometer for low-field NMR"
+type: software
+authors:
+  - family-names: Soukey
+    given-names: "Anthony J."
+    orcid: "https://orcid.org/0009-0002-4893-8236"
+version: "5.4"
+date-released: "2026-06-01"
+license: GPL-3.0
+repository-code: "https://github.com/SoukeyCircuits/ArduinoNMR"
+abstract: >-
+  The barrier to entry for nuclear magnetic resonance (NMR) requires two very expensive pieces of equipment: a magnet and a spectrometer. For magnets with useful NMR Larmor frequencies, the hardware required is a field programmable gate array (FPGA) controlling both a high speed analog to digital converter (ADC) and digital to analog converter (DAC). With more powerful microcontrollers on the market available, the minimum requirements for hardware can be reduced to an Arduino based STM32H747XI board with the addition of controllable higher speed radio frequency components and a SpinCore low field magnet. Using existing software defined radio designs and optimizing for pulsed NMR capabilities, a circuit board hardware attached on top (HAT) is shown to be capable of measuring a glycerol sample with simple NMR pulse sequences on an 18 MHz magnet.
+keywords:
+  - NMR
+  - nuclear magnetic resonance
+  - low-field NMR
+  - spectrometer
+  - open hardware
+  - Arduino
+  - Tayloe detector
